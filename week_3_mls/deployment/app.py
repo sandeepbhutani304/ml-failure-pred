@@ -8,7 +8,7 @@ model_path = hf_hub_download(repo_id="sandtemp01/machine_failure_model-model-dem
 model = joblib.load(model_path)
 
 # Streamlit UI for Machine Failure Prediction
-st.title("Machine Failure Prediction App")
+st.title("Machine Failure Prediction Application")
 st.write("""
 This application predicts the likelihood of a machine failing based on its operational parameters.
 Please enter the sensor and configuration data below to get a prediction.
